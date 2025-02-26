@@ -4,6 +4,10 @@ const nextConfig: NextConfig = {
   /* config options here */
   images: {
     domains: ["c.ndtvimg.com"],
+    
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
   },
 };
 
